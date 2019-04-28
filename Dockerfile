@@ -4,7 +4,7 @@ ENV GIT_REPOSITORY=
 ENV GIT_USER=
 ENV GIT_PASSWORD=
 
-COPY init.sh init.sh
+COPY init.sh /var/www/html
 RUN chmod +x init.sh
 
 USER www-data
