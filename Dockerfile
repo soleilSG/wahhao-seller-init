@@ -1,4 +1,4 @@
-FROM registry.cn-shanghai.aliyuncs.com/wahhao/php-fpm:1.0.6
+FROM registry.cn-shanghai.aliyuncs.com/wahhao/php-fpm:1.0.7
 
 ENV GIT_REPOSITORY=
 ENV GIT_USER=
