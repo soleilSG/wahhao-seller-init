@@ -9,4 +9,4 @@ RUN chmod +x /init.sh
 
 USER www-data
 
-CMD ["/bin/sh", "-c", "/init.sh"]
+# CMD ["/bin/sh", "-c", "/init.sh"]
